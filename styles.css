@@ -1,0 +1,30 @@
+body{
+    background-color: whitesmoke;
+}
+
+#header{
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;	
+    grid-template-columns: 180px 180px 180px;
+    grid-template-rows: 50px 50px 50px;
+    grid-gap: 10px;
+}
+
+.result-item{
+    background-color: #999;    
+}
+
+#squares-wrapper {
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;	
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    grid-gap: 10px;
+  }
+  
+  .square {
+    background-color: #444;
+    border-radius: 5px;
+  }
