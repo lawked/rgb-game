@@ -2,13 +2,21 @@ body{
     background-color: whitesmoke;
 }
 
-#header{
-    margin: 0 auto;
+h2
+{
+    margin: 0 auto; 
+    max-width: 600px;
+    text-align: center;
+    font-size: 50px;       
+}
+
+#data-and-results{
     display: grid;
     justify-content: center;	
-    grid-template-columns: 180px 180px 180px;
-    grid-template-rows: 50px 50px 50px;
+    grid-template-columns: repeat(3, 180px);
+    grid-template-rows: repeat(3, 50px);
     grid-gap: 10px;
+    margin-bottom: -70px;
 }
 
 .result-item{
@@ -16,11 +24,10 @@ body{
 }
 
 #squares-wrapper {
-    margin: 0 auto;
     display: grid;
     justify-content: center;	
-    grid-template-columns: 150px 150px 150px;
-    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
     grid-gap: 10px;
   }
   
