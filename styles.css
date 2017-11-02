@@ -1,0 +1,37 @@
+body{
+    background-color: whitesmoke;
+}
+
+h2
+{
+    margin: 0 auto; 
+    max-width: 600px;
+    text-align: center;
+    font-size: 50px;       
+}
+
+#data-and-results{
+    display: grid;
+    justify-content: center;	
+    grid-template-columns: repeat(3, 180px);
+    grid-template-rows: repeat(3, 50px);
+    grid-gap: 10px;
+    margin-bottom: -70px;
+}
+
+.result-item{
+    background-color: #999;    
+}
+
+#squares-wrapper {
+    display: grid;
+    justify-content: center;	
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    grid-gap: 10px;
+  }
+  
+  .square {
+    background-color: #444;
+    border-radius: 5px;
+  }
