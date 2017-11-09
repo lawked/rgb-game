@@ -2,25 +2,30 @@ body{
     background-color: whitesmoke;
 }
 
-h2
-{
+h2 {
     margin: 0 auto; 
     max-width: 600px;
     text-align: center;
     font-size: 50px;       
 }
 
-#data-and-results{
+#data-and-results {
     display: grid;
     justify-content: center;	
-    grid-template-columns: repeat(3, 180px);
+    grid-template-columns: repeat(3, 200px);
     grid-template-rows: repeat(3, 50px);
     grid-gap: 10px;
     margin-bottom: -70px;
+    text-align: center;
+    font-size: 25px;
 }
 
 .result-item{
-    background-color: #999;    
+    background-color: whitesmoke;    
+}
+
+.result-item.lifes{
+    color: green;
 }
 
 #squares-wrapper {
@@ -32,6 +37,7 @@ h2
   }
   
   .square {
-    background-color: #444;
     border-radius: 5px;
+    font-size: 20px;
+    color: red;
   }
